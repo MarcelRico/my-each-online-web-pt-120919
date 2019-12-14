@@ -4,7 +4,7 @@ def my_each(array)
       yield(element)
     end
   else
-    puts "No Block Given!"
+    
   end
   array
 end
