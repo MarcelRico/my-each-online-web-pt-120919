@@ -1,7 +1,9 @@
 def my_each(array)
   if block_given?
-    array.collect do |element|
-      yield(element)
+    idx = 0
+    while array[idx]
+    
+      idx+=1
     end
   else
     
